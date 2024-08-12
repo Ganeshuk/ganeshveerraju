@@ -1,0 +1,261 @@
+.nav-card{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left:40px;
+  margin-right:40px;
+}
+
+.nav-menu{
+  display: flex;
+  justify-content: center;
+  margin-right: 70px;
+
+}
+.menu-silder{
+  display: none;
+}
+h4{
+  margin: 20px;
+}
+.nav-img{
+  margin-right: 10px;
+}
+nav{
+  border-style:solid;
+  border-color: #E5E5E5;
+  position: relative;
+}
+.nav-mobile-list{
+  display: none;
+  
+}
+.discover{
+  
+  font-family: Simplon Norm;
+font-size: 22px;
+font-weight: 400;
+line-height: 40px;
+text-align: center;
+width:680px;
+
+}
+.moblie{
+  padding: 10px;
+  height:100px;
+}
+.card-three{
+  display: flex;
+  justify-content: space-between;
+}
+.card-in{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width:200px;
+font-family: Simplon Norm;
+font-size: 14px;
+font-weight: 700;
+line-height: 4px;
+text-align: left;
+
+}
+.items-image{
+  height:200px;
+  width:200px;
+}
+h6{
+  font-family: Simplon Norm;
+font-size: 18px;
+font-weight: 700;
+line-height: 21.6px;
+text-align: left;
+line-height: px;
+margin: 0px;
+width: 200px;             /* Specify the width of the container */
+    white-space: nowrap;      /* Prevent the text from wrapping to the next line */
+    overflow: hidden;         /* Hide the overflow text */
+    text-overflow: ellipsis
+}
+.s-card{
+  width:270px;
+  height: 300px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: aliceblue;
+  box-shadow: 1px 0px 4px 3px gray;
+  border-radius: 10px;
+  
+}
+.ul-ui{
+  width:0px;
+  height:px;
+  position: absolute;
+  overflow: hidden;
+  transition: all 1s; 
+  background-color: aqua;
+  border-radius: 10px;
+  padding: 0px;
+
+}
+.li-l{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Simplon Norm;
+font-size: 14px;
+font-weight: 700;
+line-height: 21.6px;
+
+
+}
+.p{
+  font-family: Simplon Norm;
+font-size: 14px;
+font-weight: 700;
+line-height: 21.6px;
+}
+.shop-items{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: relative;
+  z-index: -1;
+ 
+}
+.items-p{
+  width:200px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  
+}
+.footer-name{
+  font-family: Simplon Norm;
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+text-align: left;
+
+
+}
+.fot{
+  background-color: black;
+  color:white
+}
+.indus{
+  display: flex;
+  justify-content: space-between;
+  
+  
+  width:80%;
+}
+.enuma{
+  display: flex;
+  justify-content: space-between;
+  width:80%;
+  
+  
+
+}
+.btn{
+  width: Fixed (184px)px;
+height: Fixed (48px)px;
+left: 400px;
+gap: 0px;
+border-radius: 5px 0px 0px 0px;
+border: 1.14px 0px 0px 0px;
+opacity: 0.3px;
+background: #000000;
+border: 1.14px solid #FFFFFF;
+font-family: Simplon Norm;
+font-size: 18px;
+font-weight: 500;
+line-height: 21.6px;
+text-align: left;
+color:white;
+margin-left:10px;
+
+
+
+}
+.po{
+  display:none;
+}
+.footer-name2{
+  font-family: Simplon Norm;
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+text-align: left;
+width:300px;
+
+}
+.foot{
+  display: flex;
+}
+@media (max-width:700px){
+  .nav-menu{
+    display:none;
+  }
+  #img1{
+    display: none;
+  }
+  #img2{
+    display: none;
+  }
+  .nav-card{
+    margin-left:10px;
+    margin-right:10px;
+  }
+  .menu-silder{
+    display: inline;
+    margin:3px;
+    height:30px;
+  }
+  .nav-mobile-list{
+   
+    position: absolute;
+    top:60px;
+    left:0;
+    background-color:grey;
+    display:flex;
+    justify-content: space-between;
+    width:100%;
+    color:#E5E5E5;
+    font-family: Arial, Helvetica, sans-serif;
+    padding:0px;
+    height:0px;
+    overflow: hidden;
+    transition: all 1s ease-in-out;
+
+  }
+  .discover{
+    font-family: Simplon Norm;
+font-size: 10px;
+font-weight: 400;
+line-height: 10px;
+text-align: center;
+width:300px;
+  }
+  .item{
+    display: none;
+    justify-content: center;
+    align-items: center;
+  }
+  .card-three{
+    width:300px;
+    margin-left: 50px;
+  }
+  .fot{
+    display: none;
+  }
+  .po{
+    display: block;
+    height:600px;
+    width:100%;
+  }
+}
